@@ -1,0 +1,35 @@
+.modalBackground{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    backdrop-filter: blur(8px);
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.modal-container {
+    height: 310px;
+    width: 542px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 30px;
+  }
+  .modal-header {
+    color: rgb(255, 255, 255);
+    font-family: "Caveat", cursive;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 33px;
+    margin-left: 80px;
+  }
+  .submit-modal {
+   
+    width: 110px;
+    background: #a9a8a8;
+  }
+  .submit-modal:hover {
+    background: radial-gradient(#ffdc96, #fd8f00);
+  }
+  

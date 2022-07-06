@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+}
+.card-text{
+  text-align: center;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:bold;
+  color: black;
+  max-width: 320px;
+  padding-top: 340px;
+}
+.mainbg {
+  background:#94B49F;
+  background-repeat: no-repeat;
+  align-items: center;
+  min-height: 800px;
+  padding: 30px;
+}
+/* Float 3 columns side by side */
+.column {
+  margin-top: 80px;
+  display: flex;
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  padding: 10px 30px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 14px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 500px;
+  border-radius: 30px;
+  width: 400px;
+}
+
+#img1 {
+  background: url("./images/img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#img2 {
+  background: url("./images/laptop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 30px;
+}

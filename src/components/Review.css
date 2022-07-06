@@ -1,0 +1,38 @@
+.center {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 2%;
+}
+
+.menu {
+  width: 30%;
+  color: white;
+  margin: 0 auto;
+  background-color: rgb(221, 221, 221);
+  display: none;
+}
+
+.main .menuTitle {
+  width: 30%;
+  padding: 20px 30px;
+  color: white;
+  background-color: #6497b1;
+  margin: 0 auto;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+i {
+  transition: 500ms;
+}
+.rotate {
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.down {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
